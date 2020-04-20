@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(100, 85, 206);
+    background-image: url(imagens/earth-1207231_1920.jpg);
+    background-size: 100%;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+header > div {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+header,
+header a:link,
+header a:visited,
+footer,
+footer a:link,
+footer a:visited,
+h2 {
+    color: white;
+}
+#infosobre,
+#infosobre a:link,
+#infosobre a:visited {
+    display: flex;
+    color: white;
+    position: relative;
+    text-align: left;
+}
+#noticias{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.colunaNoticias{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 30%;
+}
+.colunaNoticias > div {
+    background-color: rgb(200, 191, 231);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
